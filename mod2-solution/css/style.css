@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align:center;
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-top: 5px
+  margin-right: auto;
+  text-align: right;
+  border:0px solid black;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+}
+
+.box {
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.box h4 {background:#0094ff;color:none;padding:1px;left: 400px;}
+.box p {color:#333;padding:10px;}
+
+div#container {
+  position: relative;
+  padding: 5px;
+
+}
+
+#p1 {
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  position: relative;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+#p2 {
+  background-color: #DEB887;
+  width: 90%;
+  height: 150px;
+  position: relative;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+#p3 {
+  background-color: #DEC887;
+  width: 90%;
+  height: 150px;
+  position: relative;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    width: 25%;
+    float: left;
+    border: 0px solid green;
+    position: relative;
+  }
+
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+    border: 0px solid green;
+    position: relative;
+  }
+
+  .col-md-12 {
+    width: 100%;
+    float: left;
+    border: 0px solid green;
+    position: relative;
+    margin-bottom: 200px;
+  }
+  
+}
